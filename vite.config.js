@@ -12,7 +12,9 @@ export default defineConfig({
   resolve: {
     alias: {
       "@app": path.resolve(process.cwd(), "app"),
+      "@modules": path.resolve(process.cwd(), "modules"),
       "@ui": path.resolve(process.cwd(), "app/components/ui"),
+      "@layout": path.resolve(process.cwd(), "app/components/layout"),
     }
   },
   plugins: [react()],

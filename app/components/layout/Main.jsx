@@ -1,5 +1,5 @@
 import React from 'react'
-import 'modules/tailwind/css/tailwind.css'
+import '@modules/tailwind/css/tailwind.css'
 
 const OuterWrapper = ({ children }) => (
   <div className="w-full h-full bg-[#222] text-gray-300 pt-[60px]
